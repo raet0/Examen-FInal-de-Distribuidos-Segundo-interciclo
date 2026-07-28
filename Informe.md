@@ -43,11 +43,12 @@ Vamos con el primer reto nos dicen que:
 ## Captura o registro del workflow inicial.
 ![alt text](images/reto3/ci-cd-inicial.png)
 ## Captura o registro de una ejecución donde una prueba falla.
-
+![alt text](<images/reto3/git actions una prueba falla.png>)
 ## Captura o registro que demuestre el comportamiento defectuoso inicial del pipeline.
-
+![alt text](<images/reto3/comportamiento defectuso pipeline.png>)
+Esto da error al momento de hacer las pruebas en actions
 ## Captura o registro del workflow corregido.
-
+![alt text](images/reto3/ci-cd-corregid.png)
 ## Captura o registro de una ejecución donde el despliegue se bloquea por una prueba fallida.
 
 ## Captura o registro de una ejecución final donde las pruebas pasan y el despliegue continúa.
