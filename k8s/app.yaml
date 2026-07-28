@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-deployment
+  name: web
 spec:
   replicas: 2
   selector:
@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: web
-          image: app-ejemplo-evaluacion:latest
+          image: app-ejemplo-evaluacion
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
 ---

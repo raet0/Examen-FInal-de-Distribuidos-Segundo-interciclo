@@ -50,8 +50,13 @@ Esto da error al momento de hacer las pruebas en actions
 ## Captura o registro del workflow corregido.
 ![alt text](images/reto3/ci-cd-corregid.png)
 ## Captura o registro de una ejecución donde el despliegue se bloquea por una prueba fallida.
-
+![alt text](<images/reto3/git actions una prueba falla.png>)
 ## Captura o registro de una ejecución final donde las pruebas pasan y el despliegue continúa.
-
+Encontre en internet que tengo que primero registrar el tag de la imagen para poder que git no me error al hacer el deploy, por falta de tiempo me falto eso.
 # Reto#4
 
+# mostrar la aplicacion del manifiesto
+Se aplica el manifiesto despues de modifica el nombre de web-app a solo web.
+![alt text](<images/reto4/aplicar manifiesto captura 1.png>)
+# Captura o registro de los pods en ejecución.
+![alt text](image-2.png)
